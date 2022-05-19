@@ -1,0 +1,38 @@
+{
+  "name": "express-portfolio-visit-counter",
+  "version": "1.0.0",
+  "main": "server.js",
+  "engines": {
+    "node": ">=6"
+  },
+  "scripts": {
+    "lint": "eslint .",
+    "start": "node server.js",
+    "dev": "nodemon server.js",
+    "heroku:login": "heroku login",
+    "heroku:create": "heroku create $HEROKU_APP_NAME",
+    "heroku:deploy": "git push heroku master",
+    "heroku:logs": "heroku logs -t --app $APP_NAME"
+  },
+  "dependencies": {
+    "apollo-boost": "^0.4.9",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "cross-fetch": "^3.0.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "graphql": "^15.3.0",
+    "helmet": "^4.6.0",
+    "lodash": "^4.17.20",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.16"
+  },
+  "repository": {
+    "type": "",
+    "url": ""
+  },
+  "license": "UNLICENSED",
+  "description": "express-portfolio-visit-counter-backend"
+}
