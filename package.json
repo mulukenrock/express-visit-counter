@@ -27,6 +27,7 @@
     "morgan": "^1.10.0"
   },
   "devDependencies": {
+    "heroku": "^7.60.2",
     "nodemon": "^2.0.16"
   },
   "repository": {
