@@ -5,8 +5,8 @@
 ```
 HASURA_GRAPHQL_URL=http://localhost:4040/v1/graphql
 HASURA_GRAPHQL_ADMIN_SECRET=secret
-EXPRESS_PORT=4041
-CORS_ALLOWED_SITE=http://localhost:8081
+PORT=4041
+CORS_ALLOWED_SITES=["http://localhost:8081"]
 ```
 ## Build Setup
 
