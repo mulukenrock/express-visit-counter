@@ -9,9 +9,14 @@ PORT=4041
 CORS_ALLOWED_SITES=["http://localhost:8081"]
 ```
 ## Build Setup
-
-```bash
+```
 # start express
 $ yarn dev
-
+```
+## Deploy to heroku
+``` 
+$ yarn heroku:login
+$ yarn heroku:create app_name
+$ yarn heroku:deploy
+$ yarn heroku:logs app_name
 ```
